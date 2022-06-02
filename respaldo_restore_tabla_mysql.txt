@@ -1,0 +1,5 @@
+## Respaldo tabla MySQL ##
+mysqldump  -h [endpoint]  -u [user] -p[password] [dbname] [tblname] > tblname.sql
+
+## Restore tabla MySQL ##
+mysql  -h [endpoint] -u [user] -p[password] [dbname] < tablename.sql
